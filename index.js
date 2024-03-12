@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, TextInputBuilder, ModalBuilder, TextInputStyle, ButtonBuilder, ButtonStyle } = require('discord.js');
-const { token, jailRoleId, jailReportChannelId, serverid, adminRoleId } = require('./config.js'); // Ensure adminRoleId is defined in your config.js
+const { token, jailRoleId, jailReportChannelId, serverid, adminRoleId } = require('./config.js');
 const { QuickDB } = require('quick.db');
 const db = new QuickDB();
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
