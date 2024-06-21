@@ -24,6 +24,7 @@
       "@discordjs/rest": "^0.1.0-canary.0",
       "discord-api-types": "^0.25.2",
       "discord.js": "^14.14.1",
+      "better-sqlite3": "9.6.0",
       "quick.db": "^9.1.7"
     }
 }
